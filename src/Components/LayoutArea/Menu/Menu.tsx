@@ -4,9 +4,15 @@ import { NavLink } from "react-router-dom";
 const Menu = (): JSX.Element => {
   return (
     <div className="Menu">
-      <NavLink to="/coins-list">Coins List</NavLink>
-      <NavLink to="/live-reports">Live Reports</NavLink>
-      <NavLink to="/about">About</NavLink>
+      <NavLink style={{ textDecoration: "none" }} to="/coins-list">
+        Coins List
+      </NavLink>
+      <NavLink style={{ textDecoration: "none" }} to="/live-reports">
+        Live Reports
+      </NavLink>
+      <NavLink style={{ textDecoration: "none" }} to="/about">
+        About
+      </NavLink>
     </div>
   );
 };

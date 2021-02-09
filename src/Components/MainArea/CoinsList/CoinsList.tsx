@@ -15,6 +15,7 @@ const CoinsList = (): JSX.Element => {
     };
     getCoins();
   }, []);
+  console.log(coin);
 
   return (
     <div className="CoinsList">

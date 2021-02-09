@@ -33,7 +33,12 @@ const Coin = (props: any): JSX.Element => {
           </Card.Header>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
-              <MoreInfoBtn image={props.coin.image.small} />
+              <MoreInfoBtn
+                image={props.coin.image.small}
+                usd={props.coin.market_data.current_price.usd}
+                eur={props.coin.market_data.current_price.eur}
+                ils={props.coin.market_data.current_price.ils}
+              />
             </Card.Body>
           </Accordion.Collapse>
         </Card>

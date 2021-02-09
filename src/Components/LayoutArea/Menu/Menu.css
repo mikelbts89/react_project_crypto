@@ -1,8 +1,17 @@
 .Menu {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.Menu>a {
-    margin-top: 20px;
+.Menu > a {
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  color: black;
+}
+
+.Menu > a:hover {
+  color: black;
+  font-size: 1.2rem;
 }
