@@ -1,0 +1,18 @@
+.accordion {
+  width: 18rem;
+}
+
+.Coin {
+  margin: 1rem auto;
+  text-align: start;
+}
+
+input {
+  position: relative;
+  float: right;
+  bottom: 2rem;
+}
+
+.changeLetterSize {
+  font-size: 1.2rem;
+}
