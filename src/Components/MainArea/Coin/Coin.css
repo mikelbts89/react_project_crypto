@@ -3,8 +3,10 @@
 }
 
 .Coin {
-  margin: 1rem auto;
+  margin: 1rem;
   text-align: start;
+  display: inline-block;
+  vertical-align: top;
 }
 
 input {

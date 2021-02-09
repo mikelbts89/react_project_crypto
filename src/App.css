@@ -20,10 +20,10 @@
 }
 
 .App > aside {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 .App > main {
-  grid-column: span 10;
+  grid-column: span 11;
   overflow: scroll;
 }
